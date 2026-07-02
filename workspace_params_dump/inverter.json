@@ -1,0 +1,21 @@
+{
+  "model": "BoostXL-DRV8305",
+  "sn": "INV_XXXX",
+  "V_dc": 24,
+  "I_trip": 10,
+  "Rds_on": 0.002,
+  "Rshunt": 0.007,
+  "CtSensAOffset": 2295,
+  "CtSensBOffset": 2286,
+  "CtSensCOffset": 2295,
+  "ADCGain": 1,
+  "EnableLogic": 1,
+  "invertingAmp": 1,
+  "ISenseVref": 3.3,
+  "ISenseVoltPerAmp": 0.07,
+  "ISenseMax": 21.428571428571427,
+  "R_board": 0.0043333333333333331,
+  "CtSensOffsetMax": 2500,
+  "CtSensOffsetMin": 1500,
+  "ADCOffsetCalibEnable": 1
+}

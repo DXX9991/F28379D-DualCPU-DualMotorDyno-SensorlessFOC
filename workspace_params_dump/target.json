@@ -1,0 +1,10 @@
+{
+  "model": "LAUNCHXL-F28379D",
+  "sn": "123456",
+  "CPU_frequency": 2.0E+8,
+  "PWM_frequency": 20000,
+  "PWM_Counter_Period": 5000,
+  "ADC_Vref": 3,
+  "ADC_MaxCount": 4095,
+  "SCI_baud_rate": 1.2E+7
+}

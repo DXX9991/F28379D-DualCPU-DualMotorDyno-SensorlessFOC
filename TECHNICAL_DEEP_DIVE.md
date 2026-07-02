@@ -44,14 +44,43 @@ PI_params = mcb.internal.SetControllerParameters(pmsm, inverter, PU_System, T_pw
 smo = mcb_ComputeSMOParameters(pmsm, Ts, PU_System);
 ```
 
-该函数计算以下 SMO 参数（基于 MCB 文档）：
+### PI 参数实际值 (JIEMEIKANG 42JSF360AS-1000, Vdc=24V, 20kHz PWM)
 
-| 参数 | 公式/值 | 说明 |
-|------|---------|------|
-| SMO Gain (k) | k > max(|e_α|, |e_β|) | 滑模增益 — 需覆盖反电动势幅度 |
-| LPF 截止频率 | 典型 200–500 Hz | SMO 输出低通滤波 |
-| PLL 比例增益 | 取决于期望带宽 | 用于角度/速度估计的 PLL |
-| PLL 积分增益 | Kp²/(4⋅Ts) | PLL 阻尼设计 |
+> 来源: `workspace_params_dump/PI_params.json` — 由 `mcb.internal.SetControllerParameters()` 计算
+
+| 参数 | 实际值 | 单位 | 说明 |
+|------|--------|------|------|
+| Kp_i = Kp_id | **4.95** | V/A | d/q 轴电流环比增益 |
+| Ki_i = Ki_id | **6915.3** | V/(A⋅s) | d/q 轴电流环积分增益 |
+| Ti_i | **715.6 μs** | s | 电流环积分时间常数 = Kp/Ki |
+| Kp_speed | **1.60** | A/(PU⋅s) | 速度环比增益 |
+| Ki_speed | **21.14** | A/(PU⋅s²) | 速度环积分增益 |
+| Ti_speed | **75.7 ms** | s | 速度环积分时间常数 |
+| Kp_fwc | **0.0089** | — | 弱磁控制比例增益 |
+| Ki_fwc | **12.47** | — | 弱磁控制积分增益 |
+| delay_IIR | **0.04** | — | 电流反馈 IIR 滤波系数 |
+
+### SMO 参数实际值
+
+> 来源: `workspace_params_dump/smo.json` — 由 `mcb_ComputeSMOParameters()` 计算
+
+| 参数 | 实际值 | 说明 |
+|------|--------|------|
+| BackEmfObsGain | **0.9** | 反电动势观测器增益 |
+| CurrentObsGain | **0.1933** | 电流观测器增益 |
+| CutoffFreq | **722 Hz** | SMO 输出 LPF 截止频率 |
+
+### PU 标幺值系统
+
+> 来源: `workspace_params_dump/PU_System.json`
+
+| 基准量 | 值 | 说明 |
+|--------|-----|------|
+| V_base | **13.86 V** | 基准电压 |
+| I_base | **21.43 A** | 基准电流 |
+| N_base | **3610 RPM** | 基准转速 |
+| T_base | **0.709 Nm** | 基准转矩 |
+| P_base | **445.4 W** | 基准功率 |
 
 **SMO 结构**（基于 MCB `mcb_pms_SensorlessAlgorithm`）：
 ```
@@ -71,7 +100,7 @@ smo = mcb_ComputeSMOParameters(pmsm, Ts, PU_System);
 | T_Ref_openLoop | **1 s** | 开环启动持续时间 |
 | Speed_openLoop_PU | **0.1 PU** | 开环参考速度 (10% 额定) |
 | Vd_Ref_openLoop_PU | **0.1 PU** | 开环 d 轴电压 |
-| Acceleration | 20000/N_base PU/s | 最大加速度限制 |
+| Acceleration | 20000/N_base = 5.54 PU/s | 最大加速度限制 |
 
 ### 电机参数 (JIEMEIKANG 42JSF360AS-1000 × Teknic 2310P)
 
@@ -86,14 +115,36 @@ smo = mcb_ComputeSMOParameters(pmsm, Ts, PU_System);
 | I_rated | 4 A (peak) | — |
 | N_max | 4000 RPM | — |
 
-### 逆变器参数 (BoostXL-DRV8305)
+### 逆变器参数 (BoostXL-DRV8305 — 实际值)
+
+> 来源: `workspace_params_dump/inverter.json`
 
 | 参数 | 值 |
 |------|-----|
-| Vdc | 24V |
-| ISenseMax | 经 ADC 增益校准 |
-| ADC Offset Calibration | 自动启用 (ADCOffsetCalibEnable=1) |
-| ADCGain | 1 (默认 SPI 增益) |
+| Vdc | **24 V** |
+| I_trip | **10 A** |
+| Rshunt | **7.0 mΩ** |
+| ISenseVref | **3.3 V** |
+| ISenseVoltPerAmp | **0.07 V/A** |
+| ISenseMax | **21.43 A** (经 ADC 增益校准) |
+| CtSensAOffset | 2295 (ADC counts) |
+| CtSensBOffset | 2286 (ADC counts) |
+| CtSensOffsetMax/Min | 2500 / 1500 |
+| ADCOffsetCalibEnable | **1** (自动校准启用) |
+| ADCGain | **1** (默认 SPI 增益) |
+
+### 目标硬件参数 (LAUNCHXL-F28379D — 实际值)
+
+> 来源: `workspace_params_dump/target.json`
+
+| 参数 | 值 |
+|------|-----|
+| CPU_frequency | **200 MHz** |
+| PWM_frequency | **20 kHz** |
+| PWM_Counter_Period | **5000** (TBPRD) |
+| ADC_Vref | **3.0 V** |
+| ADC_MaxCount | **4095** (12-bit) |
+| SCI_baud_rate | **12 Mbps** |
 
 ---
 
@@ -353,6 +404,7 @@ ePWM6 ────┘                  │  │
 
 | 要找的信息 | 去看哪个文件 |
 |-----------|------------|
+| **PI/SMO/PU 精确数值** | `workspace_params_dump/*.json` + `workspace_params_dump/*.mat` |
 | PI 参数计算 | `*_data.m` / `*_datascript.m` → `mcb.internal.SetControllerParameters()` |
 | SMO 参数计算 | `*_datascript.m` → `mcb_ComputeSMOParameters()` |
 | 电机参数 | `*_datascript.m` (JIEMEIKANG) 或 `*_data.m` (Teknic) |
