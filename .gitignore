@@ -1,0 +1,40 @@
+# MATLAB / Simulink generated code and cache
+*_ert_rtw/
+slprj/
+
+# Simulink cache files
+*.slxc
+
+# Build outputs
+*.hex
+*.out
+*.map
+*.dwo
+
+# Compiled MATLAB files
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.p
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code local config
+.claude/
+
+# OS files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# F28069M files (non-F28379D processor)
+*f28069m*
+c28069pmsmfocdual_ert.m
+
+# Binary images (documentation screenshots — not core source)
+*.png
