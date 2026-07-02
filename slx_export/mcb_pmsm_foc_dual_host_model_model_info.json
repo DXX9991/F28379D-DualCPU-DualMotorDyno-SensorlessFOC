@@ -1,0 +1,8 @@
+{
+  "ModelName": "mcb_pmsm_foc_dual_host_model",
+  "Solver": "FixedStepDiscrete",
+  "FixedStep": "auto",
+  "SystemTargetFile": "ert.tlc",
+  "HardwareBoard": "None",
+  "StopTime": "inf"
+}

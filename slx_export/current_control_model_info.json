@@ -1,0 +1,8 @@
+{
+  "ModelName": "current_control",
+  "Solver": "VariableStepAuto",
+  "FixedStep": "auto",
+  "SystemTargetFile": "grt.tlc",
+  "HardwareBoard": "None",
+  "StopTime": "10.0"
+}

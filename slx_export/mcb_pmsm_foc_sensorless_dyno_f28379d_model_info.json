@@ -1,0 +1,8 @@
+{
+  "ModelName": "mcb_pmsm_foc_sensorless_dyno_f28379d",
+  "Solver": "FixedStepDiscrete",
+  "FixedStep": "auto",
+  "SystemTargetFile": "ert.tlc",
+  "HardwareBoard": "TI Delfino F28379D LaunchPad",
+  "StopTime": "6"
+}

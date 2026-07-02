@@ -1,0 +1,668 @@
+[
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/I_ref",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/I_ref/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Sum",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Sum/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/I_fb",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/I_fb/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Sum",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Sum/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/V_ref",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/V_ref/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/Sum",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/Sum/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/Kp",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/Kp/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/Logical\nOperator",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/Logical\nOperator/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/Ki1",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/Ki1/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/Ki",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/Ki/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id/EnablePWM",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/EnablePWM/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id/Logical\nOperator",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/V_ref",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/V_ref/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/I_fb",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/I_fb/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Sum",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Sum/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/I_ref",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/I_ref/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Sum",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Sum/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/Kp",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/Kp/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/Sum",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/Sum/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/Ki",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/Ki/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/Logical\nOperator",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/Logical\nOperator/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/Kp1",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/Kp1/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Discrete PI Controller \nwith anti-windup & reset/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq/EnablePWM",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/EnablePWM/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq/Logical\nOperator",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Iq",
+    "SrcPort": "current_control/Current_Controllers/Iq/Iq_fb",
+    "DstBlock": "current_control/Current_Controllers/Bus\nCreator",
+    "DstPort": "current_control/Current_Controllers/Bus\nCreator/Iq_fb",
+    "Name": "Iq_fb"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Iq",
+    "SrcPort": "current_control/Current_Controllers/Iq/Iq_fb",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Iq_fb",
+    "Name": "Iq_fb"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Iq",
+    "SrcPort": "current_control/Current_Controllers/Iq/Iq_fb",
+    "DstBlock": [
+      "current_control/Current_Controllers/PI_Controller_Iq",
+      "current_control/Current_Controllers/Bus\nCreator"
+    ],
+    "DstPort": [
+      "current_control/Current_Controllers/PI_Controller_Iq/Iq_fb",
+      "current_control/Current_Controllers/Bus\nCreator/Iq_fb"
+    ],
+    "Name": "Iq_fb"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Id",
+    "SrcPort": "current_control/Current_Controllers/Id/Id_fb",
+    "DstBlock": "current_control/Current_Controllers/Bus\nCreator",
+    "DstPort": "current_control/Current_Controllers/Bus\nCreator/Id_fb",
+    "Name": "Id_fb"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Id",
+    "SrcPort": "current_control/Current_Controllers/Id/Id_fb",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Id_fb",
+    "Name": "Id_fb"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Id",
+    "SrcPort": "current_control/Current_Controllers/Id/Id_fb",
+    "DstBlock": [
+      "current_control/Current_Controllers/PI_Controller_Id",
+      "current_control/Current_Controllers/Bus\nCreator"
+    ],
+    "DstPort": [
+      "current_control/Current_Controllers/PI_Controller_Id/Id_fb",
+      "current_control/Current_Controllers/Bus\nCreator/Id_fb"
+    ],
+    "Name": "Id_fb"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Demux",
+    "SrcPort": "current_control/Current_Controllers/Demux/Id_Ref",
+    "DstBlock": "current_control/Current_Controllers/Bus\nCreator",
+    "DstPort": "current_control/Current_Controllers/Bus\nCreator/Id_Ref",
+    "Name": "Id_Ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Demux",
+    "SrcPort": "current_control/Current_Controllers/Demux/Id_Ref",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/Id_Ref",
+    "Name": "Id_Ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Demux",
+    "SrcPort": "current_control/Current_Controllers/Demux/Id_Ref",
+    "DstBlock": [
+      "current_control/Current_Controllers/PI_Controller_Id",
+      "current_control/Current_Controllers/Bus\nCreator"
+    ],
+    "DstPort": [
+      "current_control/Current_Controllers/PI_Controller_Id/Id_Ref",
+      "current_control/Current_Controllers/Bus\nCreator/Id_Ref"
+    ],
+    "Name": "Id_Ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Demux",
+    "SrcPort": "current_control/Current_Controllers/Demux/Iq_Ref",
+    "DstBlock": "current_control/Current_Controllers/Bus\nCreator",
+    "DstPort": "current_control/Current_Controllers/Bus\nCreator/Iq_Ref",
+    "Name": "Iq_Ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Demux",
+    "SrcPort": "current_control/Current_Controllers/Demux/Iq_Ref",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/Iq_Ref",
+    "Name": "Iq_Ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Demux",
+    "SrcPort": "current_control/Current_Controllers/Demux/Iq_Ref",
+    "DstBlock": [
+      "current_control/Current_Controllers/PI_Controller_Iq",
+      "current_control/Current_Controllers/Bus\nCreator"
+    ],
+    "DstPort": [
+      "current_control/Current_Controllers/PI_Controller_Iq/Iq_Ref",
+      "current_control/Current_Controllers/Bus\nCreator/Iq_Ref"
+    ],
+    "Name": "Iq_Ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Idq_ref_PU",
+    "SrcPort": "current_control/Current_Controllers/Idq_ref_PU/",
+    "DstBlock": "current_control/Current_Controllers/Demux",
+    "DstPort": "current_control/Current_Controllers/Demux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Id",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Id/",
+    "DstBlock": "current_control/Current_Controllers/DQ Limiter",
+    "DstPort": "current_control/Current_Controllers/DQ Limiter/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/PI_Controller_Iq",
+    "SrcPort": "current_control/Current_Controllers/PI_Controller_Iq/",
+    "DstBlock": "current_control/Current_Controllers/DQ Limiter",
+    "DstPort": "current_control/Current_Controllers/DQ Limiter/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/DQ Limiter",
+    "SrcPort": "current_control/Current_Controllers/DQ Limiter/Vd_ref",
+    "DstBlock": "current_control/Current_Controllers/Vd_ref",
+    "DstPort": "current_control/Current_Controllers/Vd_ref/Vd_ref",
+    "Name": "Vd_ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/DQ Limiter",
+    "SrcPort": "current_control/Current_Controllers/DQ Limiter/Vd_ref",
+    "DstBlock": "current_control/Current_Controllers/Bus\nCreator",
+    "DstPort": "current_control/Current_Controllers/Bus\nCreator/Vd_ref",
+    "Name": "Vd_ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/DQ Limiter",
+    "SrcPort": "current_control/Current_Controllers/DQ Limiter/Vd_ref",
+    "DstBlock": [
+      "current_control/Current_Controllers/Bus\nCreator",
+      "current_control/Current_Controllers/Vd_ref"
+    ],
+    "DstPort": [
+      "current_control/Current_Controllers/Bus\nCreator/Vd_ref",
+      "current_control/Current_Controllers/Vd_ref/Vd_ref"
+    ],
+    "Name": "Vd_ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/DQ Limiter",
+    "SrcPort": "current_control/Current_Controllers/DQ Limiter/Vq_ref",
+    "DstBlock": "current_control/Current_Controllers/Vq_ref",
+    "DstPort": "current_control/Current_Controllers/Vq_ref/Vq_ref",
+    "Name": "Vq_ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/DQ Limiter",
+    "SrcPort": "current_control/Current_Controllers/DQ Limiter/Vq_ref",
+    "DstBlock": "current_control/Current_Controllers/Bus\nCreator",
+    "DstPort": "current_control/Current_Controllers/Bus\nCreator/Vq_ref",
+    "Name": "Vq_ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/DQ Limiter",
+    "SrcPort": "current_control/Current_Controllers/DQ Limiter/Vq_ref",
+    "DstBlock": [
+      "current_control/Current_Controllers/Bus\nCreator",
+      "current_control/Current_Controllers/Vq_ref"
+    ],
+    "DstPort": [
+      "current_control/Current_Controllers/Bus\nCreator/Vq_ref",
+      "current_control/Current_Controllers/Vq_ref/Vq_ref"
+    ],
+    "Name": "Vq_ref"
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/DQ Limiter",
+    "SrcPort": "current_control/Current_Controllers/DQ Limiter/",
+    "DstBlock": "current_control/Current_Controllers/Terminator",
+    "DstPort": "current_control/Current_Controllers/Terminator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/Bus\nCreator",
+    "SrcPort": "current_control/Current_Controllers/Bus\nCreator/",
+    "DstBlock": "current_control/Current_Controllers/VIdq",
+    "DstPort": "current_control/Current_Controllers/VIdq/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/EnablePWM",
+    "SrcPort": "current_control/Current_Controllers/EnablePWM/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Iq",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Iq/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/EnablePWM",
+    "SrcPort": "current_control/Current_Controllers/EnablePWM/",
+    "DstBlock": "current_control/Current_Controllers/PI_Controller_Id",
+    "DstPort": "current_control/Current_Controllers/PI_Controller_Id/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers/EnablePWM",
+    "SrcPort": "current_control/Current_Controllers/EnablePWM/",
+    "DstBlock": [
+      "current_control/Current_Controllers/PI_Controller_Id",
+      "current_control/Current_Controllers/PI_Controller_Iq"
+    ],
+    "DstPort": [
+      "current_control/Current_Controllers/PI_Controller_Id/",
+      "current_control/Current_Controllers/PI_Controller_Iq/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/From5",
+    "SrcPort": "current_control/From5/",
+    "DstBlock": "current_control/Mux",
+    "DstPort": "current_control/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/From4",
+    "SrcPort": "current_control/From4/",
+    "DstBlock": "current_control/Mux",
+    "DstPort": "current_control/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/From3",
+    "SrcPort": "current_control/From3/",
+    "DstBlock": "current_control/Mux",
+    "DstPort": "current_control/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/From2",
+    "SrcPort": "current_control/From2/",
+    "DstBlock": "current_control/Mux",
+    "DstPort": "current_control/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Inverse Park Transform",
+    "SrcPort": "current_control/Inverse Park Transform/",
+    "DstBlock": "current_control/Goto5",
+    "DstPort": "current_control/Goto5/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Inverse Park Transform",
+    "SrcPort": "current_control/Inverse Park Transform/",
+    "DstBlock": "current_control/Space Vector Generator",
+    "DstPort": "current_control/Space Vector Generator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Inverse Park Transform",
+    "SrcPort": "current_control/Inverse Park Transform/",
+    "DstBlock": [
+      "current_control/Space Vector Generator",
+      "current_control/Goto5"
+    ],
+    "DstPort": [
+      "current_control/Space Vector Generator/",
+      "current_control/Goto5/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Mux",
+    "SrcPort": "current_control/Mux/",
+    "DstBlock": "current_control/VI_fb",
+    "DstPort": "current_control/VI_fb/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/EnablePWM",
+    "SrcPort": "current_control/EnablePWM/",
+    "DstBlock": "current_control/Current_Controllers",
+    "DstPort": "current_control/Current_Controllers/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Clarke Transform",
+    "SrcPort": "current_control/Clarke Transform/",
+    "DstBlock": "current_control/Goto2",
+    "DstPort": "current_control/Goto2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Clarke Transform",
+    "SrcPort": "current_control/Clarke Transform/",
+    "DstBlock": "current_control/Park Transform",
+    "DstPort": "current_control/Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Clarke Transform",
+    "SrcPort": "current_control/Clarke Transform/",
+    "DstBlock": [
+      "current_control/Park Transform",
+      "current_control/Goto2"
+    ],
+    "DstPort": [
+      "current_control/Park Transform/",
+      "current_control/Goto2/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Sine-Cosine Lookup",
+    "SrcPort": "current_control/Sine-Cosine Lookup/",
+    "DstBlock": "current_control/Park Transform",
+    "DstPort": "current_control/Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Sine-Cosine Lookup",
+    "SrcPort": "current_control/Sine-Cosine Lookup/",
+    "DstBlock": "current_control/Goto1",
+    "DstPort": "current_control/Goto1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Sine-Cosine Lookup",
+    "SrcPort": "current_control/Sine-Cosine Lookup/",
+    "DstBlock": [
+      "current_control/Goto1",
+      "current_control/Park Transform"
+    ],
+    "DstPort": [
+      "current_control/Goto1/",
+      "current_control/Park Transform/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Inverse Park Transform",
+    "SrcPort": "current_control/Inverse Park Transform/",
+    "DstBlock": "current_control/Goto4",
+    "DstPort": "current_control/Goto4/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Inverse Park Transform",
+    "SrcPort": "current_control/Inverse Park Transform/",
+    "DstBlock": "current_control/Space Vector Generator",
+    "DstPort": "current_control/Space Vector Generator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Inverse Park Transform",
+    "SrcPort": "current_control/Inverse Park Transform/",
+    "DstBlock": [
+      "current_control/Space Vector Generator",
+      "current_control/Goto4"
+    ],
+    "DstPort": [
+      "current_control/Space Vector Generator/",
+      "current_control/Goto4/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers",
+    "SrcPort": "current_control/Current_Controllers/",
+    "DstBlock": "current_control/VIdq_debug",
+    "DstPort": "current_control/VIdq_debug/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Mux1",
+    "SrcPort": "current_control/Mux1/",
+    "DstBlock": "current_control/Vabc in PU",
+    "DstPort": "current_control/Vabc in PU/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers",
+    "SrcPort": "current_control/Current_Controllers/",
+    "DstBlock": "current_control/Inverse Park Transform",
+    "DstPort": "current_control/Inverse Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/From1",
+    "SrcPort": "current_control/From1/",
+    "DstBlock": "current_control/Inverse Park Transform",
+    "DstPort": "current_control/Inverse Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Demux",
+    "SrcPort": "current_control/Demux/",
+    "DstBlock": "current_control/Clarke Transform",
+    "DstPort": "current_control/Clarke Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Space Vector Generator",
+    "SrcPort": "current_control/Space Vector Generator/",
+    "DstBlock": "current_control/Mux1",
+    "DstPort": "current_control/Mux1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Park Transform",
+    "SrcPort": "current_control/Park Transform/",
+    "DstBlock": "current_control/Current_Controllers",
+    "DstPort": "current_control/Current_Controllers/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Space Vector Generator",
+    "SrcPort": "current_control/Space Vector Generator/",
+    "DstBlock": "current_control/Mux1",
+    "DstPort": "current_control/Mux1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Current_Controllers",
+    "SrcPort": "current_control/Current_Controllers/",
+    "DstBlock": "current_control/Inverse Park Transform",
+    "DstPort": "current_control/Inverse Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/From",
+    "SrcPort": "current_control/From/",
+    "DstBlock": "current_control/Inverse Park Transform",
+    "DstPort": "current_control/Inverse Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Demux",
+    "SrcPort": "current_control/Demux/",
+    "DstBlock": "current_control/Clarke Transform",
+    "DstPort": "current_control/Clarke Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Sine-Cosine Lookup",
+    "SrcPort": "current_control/Sine-Cosine Lookup/",
+    "DstBlock": "current_control/Park Transform",
+    "DstPort": "current_control/Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Sine-Cosine Lookup",
+    "SrcPort": "current_control/Sine-Cosine Lookup/",
+    "DstBlock": "current_control/Goto",
+    "DstPort": "current_control/Goto/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Sine-Cosine Lookup",
+    "SrcPort": "current_control/Sine-Cosine Lookup/",
+    "DstBlock": [
+      "current_control/Goto",
+      "current_control/Park Transform"
+    ],
+    "DstPort": [
+      "current_control/Goto/",
+      "current_control/Park Transform/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Clarke Transform",
+    "SrcPort": "current_control/Clarke Transform/",
+    "DstBlock": "current_control/Goto3",
+    "DstPort": "current_control/Goto3/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Clarke Transform",
+    "SrcPort": "current_control/Clarke Transform/",
+    "DstBlock": "current_control/Park Transform",
+    "DstPort": "current_control/Park Transform/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Clarke Transform",
+    "SrcPort": "current_control/Clarke Transform/",
+    "DstBlock": [
+      "current_control/Park Transform",
+      "current_control/Goto3"
+    ],
+    "DstPort": [
+      "current_control/Park Transform/",
+      "current_control/Goto3/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Space Vector Generator",
+    "SrcPort": "current_control/Space Vector Generator/",
+    "DstBlock": "current_control/Mux1",
+    "DstPort": "current_control/Mux1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Iab_meas_PU",
+    "SrcPort": "current_control/Iab_meas_PU/",
+    "DstBlock": "current_control/Demux",
+    "DstPort": "current_control/Demux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Pos_PU",
+    "SrcPort": "current_control/Pos_PU/",
+    "DstBlock": "current_control/Sine-Cosine Lookup",
+    "DstPort": "current_control/Sine-Cosine Lookup/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Idq_ref_PU",
+    "SrcPort": "current_control/Idq_ref_PU/",
+    "DstBlock": "current_control/Current_Controllers",
+    "DstPort": "current_control/Current_Controllers/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "current_control/Park Transform",
+    "SrcPort": "current_control/Park Transform/",
+    "DstBlock": "current_control/Current_Controllers",
+    "DstPort": "current_control/Current_Controllers/",
+    "Name": ""
+  }
+]

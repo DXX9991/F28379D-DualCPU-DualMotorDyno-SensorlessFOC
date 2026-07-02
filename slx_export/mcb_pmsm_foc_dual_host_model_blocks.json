@@ -1,0 +1,1742 @@
+[
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Copyright Notice3",
+    "Name": "Copyright Notice3",
+    "BlockType": "SubSystem",
+    "MaskType": "Copyright Notice",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "demo_controls/Copyright Notice",
+    "SampleTime": "",
+    "Position": [
+      185,
+      505,
+      480,
+      529
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Display",
+    "Name": "Display",
+    "BlockType": "Display",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      660,
+      345,
+      750,
+      375
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Display1",
+    "Name": "Display1",
+    "BlockType": "Display",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      660,
+      400,
+      750,
+      430
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Host Serial Setup",
+    "Name": "Host Serial Setup",
+    "BlockType": "MATLABSystem",
+    "MaskType": "system.SerialConfiguration",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "instrumentseriallib/Serial Configuration",
+    "SampleTime": "",
+    "Position": [
+      273,
+      274,
+      413,
+      329
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Iq_ref:Motor2",
+    "Name": "Iq_ref:Motor2",
+    "BlockType": "KnobBlock",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      235,
+      71,
+      400,
+      221
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Motor 1 - Reference Speed (RPM)",
+    "Name": "Motor 1 - Reference Speed (RPM)",
+    "BlockType": "EditField",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      65,
+      270,
+      225,
+      330
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Motor 2 - IqRef (A)",
+    "Name": "Motor 2 - IqRef (A)",
+    "BlockType": "EditField",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      70,
+      385,
+      230,
+      445
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Motor1",
+    "Name": "Motor1",
+    "BlockType": "SliderSwitchBlock",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      263,
+      385,
+      403,
+      445
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Motor1:Debug signals",
+    "Name": "Motor1:Debug signals",
+    "BlockType": "RadioButtonGroup",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      420,
+      61,
+      545,
+      221
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Motor2: Debug signals",
+    "Name": "Motor2: Debug signals",
+    "BlockType": "RadioButtonGroup",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      595,
+      61,
+      730,
+      221
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Scope",
+    "Name": "Scope",
+    "BlockType": "Scope",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      680,
+      281,
+      730,
+      329
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication",
+    "Name": "Serial Communication",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      445,
+      274,
+      620,
+      446
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect",
+    "Name": "Change_detect",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      345,
+      63,
+      425,
+      172
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In1",
+    "Name": "In1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      75,
+      23,
+      105,
+      37
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In2",
+    "Name": "In2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      75,
+      118,
+      105,
+      132
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In4",
+    "Name": "In4",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      30,
+      198,
+      60,
+      212
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In3",
+    "Name": "In3",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      55,
+      323,
+      85,
+      337
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator",
+    "Name": "Logical\nOperator",
+    "BlockType": "Logic",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      415,
+      48,
+      450,
+      227
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator",
+    "Name": "Relational\nOperator",
+    "BlockType": "RelationalOperator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      305,
+      22,
+      335,
+      53
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1",
+    "Name": "Relational\nOperator1",
+    "BlockType": "RelationalOperator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      305,
+      117,
+      335,
+      148
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2",
+    "Name": "Relational\nOperator2",
+    "BlockType": "RelationalOperator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      285,
+      322,
+      315,
+      353
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3",
+    "Name": "Relational\nOperator3",
+    "BlockType": "RelationalOperator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      305,
+      197,
+      335,
+      228
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay",
+    "Name": "Unit Delay",
+    "BlockType": "UnitDelay",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      215,
+      58,
+      250,
+      92
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay1",
+    "Name": "Unit Delay1",
+    "BlockType": "UnitDelay",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      215,
+      138,
+      250,
+      172
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay2",
+    "Name": "Unit Delay2",
+    "BlockType": "UnitDelay",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      200,
+      358,
+      235,
+      392
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay3",
+    "Name": "Unit Delay3",
+    "BlockType": "UnitDelay",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      215,
+      228,
+      250,
+      262
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Out1",
+    "Name": "Out1",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      530,
+      128,
+      560,
+      142
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units",
+    "Name": "Convert_to_SI_Units",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      395,
+      -90,
+      500,
+      -50
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Output1",
+    "Name": "Output1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      150,
+      38,
+      180,
+      52
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Duty Cycle",
+    "Name": "Duty Cycle",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      64,
+      -35,
+      86
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/From",
+    "Name": "From",
+    "BlockType": "From",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      -200,
+      -18,
+      -120,
+      8
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Ia",
+    "Name": "Ia",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      24,
+      -35,
+      46
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "Name": "Multiport\nSwitch",
+    "BlockType": "MultiPortSwitch",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      45,
+      -28,
+      70,
+      258
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Pos1",
+    "Name": "Pos1",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      144,
+      -35,
+      166
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Power",
+    "Name": "Power",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      224,
+      -35,
+      246
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Product",
+    "Name": "Product",
+    "BlockType": "Product",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      240,
+      52,
+      270,
+      83
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Rate Transition",
+    "Name": "Rate Transition",
+    "BlockType": "RateTransition",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      -75,
+      -14,
+      -50,
+      4
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Speed",
+    "Name": "Speed",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      104,
+      -35,
+      126
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Torque",
+    "Name": "Torque",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      184,
+      -35,
+      206
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/debug_1",
+    "Name": "debug_1",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      330,
+      63,
+      360,
+      77
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1",
+    "Name": "Convert_to_SI_Units1",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      400,
+      -30,
+      495,
+      10
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Output2",
+    "Name": "Output2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      150,
+      38,
+      180,
+      52
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Duty Cycle",
+    "Name": "Duty Cycle",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      74,
+      -35,
+      96
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/From",
+    "Name": "From",
+    "BlockType": "From",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      -200,
+      -18,
+      -120,
+      8
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Ia",
+    "Name": "Ia",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      29,
+      -35,
+      51
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "Name": "Multiport\nSwitch",
+    "BlockType": "MultiPortSwitch",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      40,
+      -23,
+      75,
+      283
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Pos1",
+    "Name": "Pos1",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -100,
+      164,
+      -40,
+      186
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Power",
+    "Name": "Power",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -100,
+      254,
+      -40,
+      276
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Product",
+    "Name": "Product",
+    "BlockType": "Product",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      240,
+      52,
+      270,
+      83
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Rate Transition",
+    "Name": "Rate Transition",
+    "BlockType": "RateTransition",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      -75,
+      -14,
+      -50,
+      4
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Speed",
+    "Name": "Speed",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -100,
+      119,
+      -40,
+      141
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Torque",
+    "Name": "Torque",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -100,
+      209,
+      -40,
+      231
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/debug_2",
+    "Name": "debug_2",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      330,
+      63,
+      360,
+      77
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+    "Name": "Data_Conditioning_Tx",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      345,
+      230,
+      435,
+      350
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/SpeedCommand",
+    "Name": "SpeedCommand",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      100,
+      93,
+      130,
+      107
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/datacpu1",
+    "Name": "datacpu1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      100,
+      143,
+      130,
+      157
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/datacpu2",
+    "Name": "datacpu2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      100,
+      193,
+      130,
+      207
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/TorqueDemand",
+    "Name": "TorqueDemand",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      100,
+      243,
+      130,
+      257
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point",
+    "Name": "Data_Type_Fixed_Point",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      200,
+      192,
+      310,
+      253
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/SpeedCommand",
+    "Name": "SpeedCommand",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -100,
+      78,
+      -70,
+      92
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/datacpu1",
+    "Name": "datacpu1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -105,
+      128,
+      -75,
+      142
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/datacpu2",
+    "Name": "datacpu2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -105,
+      178,
+      -75,
+      192
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/TorqueDemand",
+    "Name": "TorqueDemand",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -105,
+      228,
+      -75,
+      242
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion",
+    "Name": "Data Type Conversion",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      10,
+      69,
+      80,
+      101
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion1",
+    "Name": "Data Type Conversion1",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      119,
+      215,
+      151
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion2",
+    "Name": "Data Type Conversion2",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      10,
+      219,
+      80,
+      251
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion3",
+    "Name": "Data Type Conversion3",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      69,
+      215,
+      101
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion4",
+    "Name": "Data Type Conversion4",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      219,
+      215,
+      251
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion5",
+    "Name": "Data Type Conversion5",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      169,
+      215,
+      201
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux",
+    "Name": "Mux",
+    "BlockType": "Mux",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      320,
+      59,
+      325,
+      261
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data",
+    "Name": "Data",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      385,
+      153,
+      415,
+      167
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data",
+    "Name": "Data",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      355,
+      153,
+      385,
+      167
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value",
+    "Name": "Display_Value",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      230,
+      -62,
+      345,
+      -18
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/Input",
+    "Name": "Input",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      20,
+      101,
+      40,
+      119
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/ Demux ",
+    "Name": " Demux ",
+    "BlockType": "Demux",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      270,
+      230,
+      320,
+      270
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/ SFunction ",
+    "Name": " SFunction ",
+    "BlockType": "S-Function",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      180,
+      100,
+      230,
+      180
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/ Terminator ",
+    "Name": " Terminator ",
+    "BlockType": "Terminator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      460,
+      241,
+      480,
+      259
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/Output1",
+    "Name": "Output1",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      460,
+      101,
+      480,
+      119
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/Output2",
+    "Name": "Output2",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      460,
+      136,
+      480,
+      154
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem",
+    "Name": "Enabled\nSubsystem",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      525,
+      204,
+      625,
+      246
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/Data",
+    "Name": "Data",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      110,
+      173,
+      140,
+      187
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/Enable",
+    "Name": "Enable",
+    "BlockType": "EnablePort",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      200,
+      70,
+      220,
+      90
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/Host Serial Transmit",
+    "Name": "Host Serial Transmit",
+    "BlockType": "MATLABSystem",
+    "MaskType": "system.SerialSend",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "instrumentseriallib/Serial Send",
+    "SampleTime": "",
+    "Position": [
+      215,
+      150,
+      325,
+      210
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain1",
+    "Name": "Gain1",
+    "BlockType": "Gain",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      110,
+      65,
+      135,
+      95
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2",
+    "Name": "Gain2",
+    "BlockType": "Gain",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      95,
+      335,
+      120,
+      365
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Goto",
+    "Name": "Goto",
+    "BlockType": "Goto",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      85,
+      277,
+      165,
+      303
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive",
+    "Name": "Host Serial Receive",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      50,
+      -131,
+      170,
+      -69
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point",
+    "Name": "Data_Type_Fixed_Point",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      200,
+      147,
+      310,
+      203
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion",
+    "Name": "Data Type Conversion",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      225,
+      34,
+      290,
+      66
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion1",
+    "Name": "Data Type Conversion1",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      360,
+      34,
+      425,
+      66
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Host Serial Receive",
+    "Name": "Host Serial Receive",
+    "BlockType": "MATLABSystem",
+    "MaskType": "system.SerialReceive",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "instrumentseriallib/Serial Receive",
+    "SampleTime": "600*Ts",
+    "Position": [
+      45,
+      20,
+      155,
+      80
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Scope (Per-Unit)",
+    "Name": "Scope (Per-Unit)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      505,
+      43,
+      535,
+      57
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Scope (Per-Unit)",
+    "Name": "Scope (Per-Unit)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      410,
+      118,
+      440,
+      132
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/IQ_ref",
+    "Name": "IQ_ref",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      -60,
+      335,
+      15,
+      365
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Motor Enable",
+    "Name": "Motor Enable",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      -60,
+      150,
+      15,
+      180
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse",
+    "Name": "Parse",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      75,
+      142,
+      170,
+      233
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Enable_PWM",
+    "Name": "Enable_PWM",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      20,
+      68,
+      50,
+      82
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Debug_signals",
+    "Name": "Debug_signals",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      20,
+      228,
+      50,
+      242
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator",
+    "Name": "Bitwise\nOperator",
+    "BlockType": "S-Function",
+    "MaskType": "Bitwise Operator",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "simulink/Logic and Bit\nOperations/Bitwise\nOperator",
+    "SampleTime": "",
+    "Position": [
+      250,
+      60,
+      325,
+      90
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator1",
+    "Name": "Bitwise\nOperator1",
+    "BlockType": "S-Function",
+    "MaskType": "Bitwise Operator",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "simulink/Logic and Bit\nOperations/Bitwise\nOperator",
+    "SampleTime": "",
+    "Position": [
+      250,
+      220,
+      325,
+      250
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator2",
+    "Name": "Bitwise\nOperator2",
+    "BlockType": "S-Function",
+    "MaskType": "Bitwise Operator",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "simulink/Logic and Bit\nOperations/Bitwise\nOperator",
+    "SampleTime": "",
+    "Position": [
+      250,
+      140,
+      325,
+      170
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/FWC Enable",
+    "Name": "FWC Enable",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      0,
+      140,
+      75,
+      170
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Goto",
+    "Name": "Goto",
+    "BlockType": "Goto",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      155,
+      282,
+      235,
+      308
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic",
+    "Name": "Shift\nArithmetic",
+    "BlockType": "ArithShift",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      145,
+      135,
+      225,
+      175
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic1",
+    "Name": "Shift\nArithmetic1",
+    "BlockType": "ArithShift",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      145,
+      215,
+      225,
+      255
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum",
+    "Name": "Sum",
+    "BlockType": "Sum",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      415,
+      96,
+      435,
+      189
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Data",
+    "Name": "Data",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      520,
+      138,
+      550,
+      152
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition",
+    "Name": "Rate Transition",
+    "BlockType": "RateTransition",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      200,
+      71,
+      225,
+      89
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition1",
+    "Name": "Rate Transition1",
+    "BlockType": "RateTransition",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      200,
+      341,
+      225,
+      359
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Reference Speed (RPM)",
+    "Name": "Reference Speed (RPM)",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      -60,
+      65,
+      15,
+      95
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select1",
+    "Name": "Signal Select1",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      -60,
+      195,
+      15,
+      225
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2",
+    "Name": "Signal Select2",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      -60,
+      240,
+      15,
+      270
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Scope (Per-Unit)",
+    "Name": "Scope (Per-Unit)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      580,
+      -107,
+      610,
+      -93
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Debug1 (SI units)",
+    "Name": "Debug1 (SI units)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      580,
+      -77,
+      610,
+      -63
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/Serial Communication/Debug2 (SI units)",
+    "Name": "Debug2 (SI units)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      580,
+      -17,
+      610,
+      -3
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_dual_host_model/SpeedRef:Motor1",
+    "Name": "SpeedRef:Motor1",
+    "BlockType": "KnobBlock",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      45,
+      71,
+      225,
+      221
+    ]
+  }
+]

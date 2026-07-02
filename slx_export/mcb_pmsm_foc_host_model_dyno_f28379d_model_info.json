@@ -1,0 +1,8 @@
+{
+  "ModelName": "mcb_pmsm_foc_host_model_dyno_f28379d",
+  "Solver": "FixedStepDiscrete",
+  "FixedStep": "auto",
+  "SystemTargetFile": "ert.tlc",
+  "HardwareBoard": "None",
+  "StopTime": "inf"
+}

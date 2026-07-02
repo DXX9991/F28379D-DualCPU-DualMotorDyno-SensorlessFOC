@@ -1,0 +1,8 @@
+{
+  "ModelName": "sensorless_algorithm",
+  "Solver": "VariableStepAuto",
+  "FixedStep": "auto",
+  "SystemTargetFile": "grt.tlc",
+  "HardwareBoard": "None",
+  "StopTime": "10.0"
+}

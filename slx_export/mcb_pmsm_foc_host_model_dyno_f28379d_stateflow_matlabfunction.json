@@ -1,0 +1,8 @@
+[
+  {
+    "Type": "MATLABFunction",
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value",
+    "Name": "Display_Value",
+    "Script": "function [Output1, Output2] = unBuf (Input)\n%% ************************************************************************\n% Unbuffer function\n% Outputs first received serial data from buffer for both signals\n\n% Copyright 2020 The MathWorks, Inc.\n\nselSignal= Input(:, 1);\nOutput1 = selSignal(1,1);\nselSignal = Input(:, 2);\nOutput2 = selSignal(1,1);\nend"
+  }
+]

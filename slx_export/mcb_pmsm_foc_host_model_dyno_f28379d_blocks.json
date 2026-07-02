@@ -1,0 +1,1592 @@
+[
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Copyright Notice3",
+    "Name": "Copyright Notice3",
+    "BlockType": "SubSystem",
+    "MaskType": "Copyright Notice",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "demo_controls/Copyright Notice",
+    "SampleTime": "",
+    "Position": [
+      295,
+      575,
+      590,
+      599
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Display",
+    "Name": "Display",
+    "BlockType": "Display",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      740,
+      440,
+      830,
+      470
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Display1",
+    "Name": "Display1",
+    "BlockType": "Display",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      740,
+      490,
+      830,
+      520
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Host Serial Setup",
+    "Name": "Host Serial Setup",
+    "BlockType": "MATLABSystem",
+    "MaskType": "system.SerialConfiguration",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "instrumentseriallib/Serial Configuration",
+    "SampleTime": "",
+    "Position": [
+      358,
+      375,
+      468,
+      435
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Motor 1 - Reference Speed (RPM)",
+    "Name": "Motor 1 - Reference Speed (RPM)",
+    "BlockType": "EditField",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      108,
+      375,
+      268,
+      435
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Motor 2 - Iq Ref (A)",
+    "Name": "Motor 2 - Iq Ref (A)",
+    "BlockType": "EditField",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      115,
+      470,
+      260,
+      530
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Motor1",
+    "Name": "Motor1",
+    "BlockType": "SliderSwitchBlock",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      338,
+      460,
+      483,
+      530
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Radio Button",
+    "Name": "Radio Button",
+    "BlockType": "RadioButtonGroup",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      525,
+      0,
+      845,
+      340
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Scope",
+    "Name": "Scope",
+    "BlockType": "Scope",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      760,
+      385,
+      805,
+      425
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication",
+    "Name": "Serial Communication",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      540,
+      380,
+      705,
+      530
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect",
+    "Name": "Change_detect",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      465,
+      66,
+      545,
+      164
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/In1",
+    "Name": "In1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      75,
+      23,
+      105,
+      37
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/In2",
+    "Name": "In2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      75,
+      118,
+      105,
+      132
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/In3",
+    "Name": "In3",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      75,
+      213,
+      105,
+      227
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Logical\nOperator",
+    "Name": "Logical\nOperator",
+    "BlockType": "Logic",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      415,
+      46,
+      450,
+      224
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Relational\nOperator",
+    "Name": "Relational\nOperator",
+    "BlockType": "RelationalOperator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      305,
+      22,
+      335,
+      53
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Relational\nOperator1",
+    "Name": "Relational\nOperator1",
+    "BlockType": "RelationalOperator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      305,
+      117,
+      335,
+      148
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Relational\nOperator2",
+    "Name": "Relational\nOperator2",
+    "BlockType": "RelationalOperator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      305,
+      212,
+      335,
+      243
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Unit Delay",
+    "Name": "Unit Delay",
+    "BlockType": "UnitDelay",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      215,
+      58,
+      250,
+      92
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Unit Delay1",
+    "Name": "Unit Delay1",
+    "BlockType": "UnitDelay",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      215,
+      138,
+      250,
+      172
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Unit Delay2",
+    "Name": "Unit Delay2",
+    "BlockType": "UnitDelay",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      220,
+      248,
+      255,
+      282
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Change_detect/Out1",
+    "Name": "Out1",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      530,
+      128,
+      560,
+      142
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units",
+    "Name": "Convert_to_SI_Units",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      455,
+      -53,
+      575,
+      3
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Output1",
+    "Name": "Output1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      283,
+      175,
+      297
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Output2",
+    "Name": "Output2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      150,
+      353,
+      180,
+      367
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Demux1",
+    "Name": "Demux1",
+    "BlockType": "Demux",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      190,
+      306,
+      195,
+      344
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/From",
+    "Name": "From",
+    "BlockType": "From",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      -190,
+      -8,
+      -110,
+      18
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Ia_Ia",
+    "Name": "Ia_Ia",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      634,
+      -35,
+      656
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Ia_Ib",
+    "Name": "Ia_Ib",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      234,
+      -35,
+      256
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Ia_Ib2",
+    "Name": "Ia_Ib2",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      434,
+      -35,
+      456
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Id_control",
+    "Name": "Id_control",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      114,
+      -35,
+      136
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Id_control1",
+    "Name": "Id_control1",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      314,
+      -35,
+      336
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Iq_control",
+    "Name": "Iq_control",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      154,
+      -35,
+      176
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Iq_control1",
+    "Name": "Iq_control1",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      354,
+      -35,
+      376
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "Name": "Multiport\nSwitch",
+    "BlockType": "MultiPortSwitch",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      20,
+      -33,
+      85,
+      683
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Pm_Pm",
+    "Name": "Pm_Pm",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      514,
+      -35,
+      536
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Pm_Te",
+    "Name": "Pm_Te",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      274,
+      -35,
+      296
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Pm_Te1",
+    "Name": "Pm_Te1",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      474,
+      -35,
+      496
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Pos",
+    "Name": "Pos",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      594,
+      -35,
+      616
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Product",
+    "Name": "Product",
+    "BlockType": "Product",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      250,
+      282,
+      280,
+      313
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Product1",
+    "Name": "Product1",
+    "BlockType": "Product",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      250,
+      337,
+      280,
+      368
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Rate Transition",
+    "Name": "Rate Transition",
+    "BlockType": "RateTransition",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      -75,
+      -4,
+      -50,
+      14
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Speed_control",
+    "Name": "Speed_control",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      74,
+      -35,
+      96
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Speed_control1",
+    "Name": "Speed_control1",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      34,
+      -35,
+      56
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Te_Te",
+    "Name": "Te_Te",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      554,
+      -35,
+      576
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Vdq",
+    "Name": "Vdq",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      194,
+      -35,
+      216
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/Vdq2",
+    "Name": "Vdq2",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -95,
+      394,
+      -35,
+      416
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/debug_1",
+    "Name": "debug_1",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      355,
+      293,
+      385,
+      307
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Convert_to_SI_Units/debug_2",
+    "Name": "debug_2",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      355,
+      348,
+      385,
+      362
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx",
+    "Name": "Data_Conditioning_Tx",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      465,
+      196,
+      545,
+      294
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/In1",
+    "Name": "In1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      110,
+      118,
+      140,
+      132
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/In2",
+    "Name": "In2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      110,
+      153,
+      140,
+      167
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/In3",
+    "Name": "In3",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      110,
+      188,
+      140,
+      202
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point",
+    "Name": "Data_Type_Fixed_Point",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      200,
+      182,
+      310,
+      238
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/In1",
+    "Name": "In1",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -105,
+      43,
+      -75,
+      57
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/In2",
+    "Name": "In2",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -105,
+      133,
+      -75,
+      147
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/In3",
+    "Name": "In3",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      -105,
+      228,
+      -75,
+      242
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion",
+    "Name": "Data Type Conversion",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      10,
+      34,
+      80,
+      66
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion1",
+    "Name": "Data Type Conversion1",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      124,
+      215,
+      156
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion2",
+    "Name": "Data Type Conversion2",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      10,
+      219,
+      80,
+      251
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion3",
+    "Name": "Data Type Conversion3",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      34,
+      215,
+      66
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion4",
+    "Name": "Data Type Conversion4",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      145,
+      219,
+      215,
+      251
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux",
+    "Name": "Mux",
+    "BlockType": "Mux",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      315,
+      106,
+      320,
+      174
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data",
+    "Name": "Data",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      385,
+      133,
+      415,
+      147
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Data_Conditioning_Tx/Data",
+    "Name": "Data",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      355,
+      153,
+      385,
+      167
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Debug_signals",
+    "Name": "Debug_signals",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      60,
+      200,
+      135,
+      230
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value",
+    "Name": "Display_Value",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      275,
+      -57,
+      390,
+      7
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value/Input",
+    "Name": "Input",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      20,
+      101,
+      40,
+      119
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value/ Demux ",
+    "Name": " Demux ",
+    "BlockType": "Demux",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      270,
+      230,
+      320,
+      270
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value/ SFunction ",
+    "Name": " SFunction ",
+    "BlockType": "S-Function",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      180,
+      100,
+      230,
+      180
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value/ Terminator ",
+    "Name": " Terminator ",
+    "BlockType": "Terminator",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      460,
+      241,
+      480,
+      259
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value/Output1",
+    "Name": "Output1",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      460,
+      101,
+      480,
+      119
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Display_Value/Output2",
+    "Name": "Output2",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      460,
+      136,
+      480,
+      154
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Enabled\nSubsystem",
+    "Name": "Enabled\nSubsystem",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      595,
+      224,
+      695,
+      266
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Enabled\nSubsystem/Data",
+    "Name": "Data",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      110,
+      173,
+      140,
+      187
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Enabled\nSubsystem/Enable",
+    "Name": "Enable",
+    "BlockType": "EnablePort",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      200,
+      70,
+      220,
+      90
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Enabled\nSubsystem/Host Serial Transmit",
+    "Name": "Host Serial Transmit",
+    "BlockType": "MATLABSystem",
+    "MaskType": "system.SerialSend",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "instrumentseriallib/Serial Send",
+    "SampleTime": "",
+    "Position": [
+      215,
+      150,
+      325,
+      210
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Gain",
+    "Name": "Gain",
+    "BlockType": "Gain",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      230,
+      70,
+      255,
+      100
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Gain1",
+    "Name": "Gain1",
+    "BlockType": "Gain",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      230,
+      260,
+      255,
+      290
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Host Serial Receive",
+    "Name": "Host Serial Receive",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      75,
+      -141,
+      195,
+      -79
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point",
+    "Name": "Data_Type_Fixed_Point",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      200,
+      147,
+      310,
+      203
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion",
+    "Name": "Data Type Conversion",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      225,
+      34,
+      290,
+      66
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion1",
+    "Name": "Data Type Conversion1",
+    "BlockType": "DataTypeConversion",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      360,
+      34,
+      425,
+      66
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Host Serial Receive",
+    "Name": "Host Serial Receive",
+    "BlockType": "MATLABSystem",
+    "MaskType": "system.SerialReceive",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "instrumentseriallib/Serial Receive",
+    "SampleTime": "600*Ts",
+    "Position": [
+      45,
+      20,
+      155,
+      80
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Scope (Per-Unit)",
+    "Name": "Scope (Per-Unit)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      505,
+      43,
+      535,
+      57
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Host Serial Receive/Scope (Per-Unit)",
+    "Name": "Scope (Per-Unit)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      410,
+      118,
+      440,
+      132
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/IQ_ref_PU",
+    "Name": "IQ_ref_PU",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      60,
+      260,
+      135,
+      290
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Motor Enable",
+    "Name": "Motor Enable",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      60,
+      135,
+      135,
+      165
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse",
+    "Name": "Parse",
+    "BlockType": "SubSystem",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      195,
+      145,
+      290,
+      225
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Enable_PWM",
+    "Name": "Enable_PWM",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      20,
+      68,
+      50,
+      82
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Debug_signals",
+    "Name": "Debug_signals",
+    "BlockType": "Inport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      20,
+      228,
+      50,
+      242
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Bitwise\nOperator",
+    "Name": "Bitwise\nOperator",
+    "BlockType": "S-Function",
+    "MaskType": "Bitwise Operator",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "simulink/Logic and Bit\nOperations/Bitwise\nOperator",
+    "SampleTime": "",
+    "Position": [
+      250,
+      60,
+      325,
+      90
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Bitwise\nOperator1",
+    "Name": "Bitwise\nOperator1",
+    "BlockType": "S-Function",
+    "MaskType": "Bitwise Operator",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "simulink/Logic and Bit\nOperations/Bitwise\nOperator",
+    "SampleTime": "",
+    "Position": [
+      250,
+      220,
+      325,
+      250
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Bitwise\nOperator2",
+    "Name": "Bitwise\nOperator2",
+    "BlockType": "S-Function",
+    "MaskType": "Bitwise Operator",
+    "LinkStatus": "resolved",
+    "ReferenceBlock": "simulink/Logic and Bit\nOperations/Bitwise\nOperator",
+    "SampleTime": "",
+    "Position": [
+      250,
+      140,
+      325,
+      170
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/FWC Enable",
+    "Name": "FWC Enable",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      0,
+      140,
+      75,
+      170
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Goto",
+    "Name": "Goto",
+    "BlockType": "Goto",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      155,
+      282,
+      235,
+      308
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Shift\nArithmetic",
+    "Name": "Shift\nArithmetic",
+    "BlockType": "ArithShift",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      145,
+      135,
+      225,
+      175
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Shift\nArithmetic1",
+    "Name": "Shift\nArithmetic1",
+    "BlockType": "ArithShift",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      145,
+      215,
+      225,
+      255
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Sum",
+    "Name": "Sum",
+    "BlockType": "Sum",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      415,
+      96,
+      435,
+      189
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Parse/Data",
+    "Name": "Data",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      520,
+      138,
+      550,
+      152
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Rate Transition",
+    "Name": "Rate Transition",
+    "BlockType": "RateTransition",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      320,
+      76,
+      345,
+      94
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Rate Transition1",
+    "Name": "Rate Transition1",
+    "BlockType": "RateTransition",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "",
+    "Position": [
+      320,
+      266,
+      345,
+      284
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Reference Speed (RPM)",
+    "Name": "Reference Speed (RPM)",
+    "BlockType": "Constant",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "0.03",
+    "Position": [
+      60,
+      70,
+      135,
+      100
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Scope (Per-Unit)",
+    "Name": "Scope (Per-Unit)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      720,
+      -117,
+      750,
+      -103
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Debug1 (SI units)",
+    "Name": "Debug1 (SI units)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      720,
+      -47,
+      750,
+      -33
+    ]
+  },
+  {
+    "Path": "mcb_pmsm_foc_host_model_dyno_f28379d/Serial Communication/Debug2 (SI units)",
+    "Name": "Debug2 (SI units)",
+    "BlockType": "Outport",
+    "MaskType": "",
+    "LinkStatus": "none",
+    "ReferenceBlock": "",
+    "SampleTime": "-1",
+    "Position": [
+      720,
+      -17,
+      750,
+      -3
+    ]
+  }
+]

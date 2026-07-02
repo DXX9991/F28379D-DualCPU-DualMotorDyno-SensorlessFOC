@@ -1,0 +1,777 @@
+[
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay3",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay3/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In4",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In4/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay3",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay3/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In4",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In4/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In4",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In4/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay3"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator3/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay3/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In3",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In3/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In3",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In3/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay2",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In3",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In3/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay2",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay2/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Out1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Out1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In1/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/In2/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay1"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Relational\nOperator1/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/Unit Delay1/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Power",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Power/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Torque",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Torque/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Product",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Product/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Ia",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Ia/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Duty Cycle",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Duty Cycle/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Speed",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Speed/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Pos1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Pos1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Rate Transition",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Rate Transition/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Output1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Output1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Product",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Product/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/From",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/From/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Rate Transition",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Rate Transition/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Product",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Product/debug_1",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/debug_1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/debug_1/debug_1",
+    "Name": "debug_1"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Torque",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Torque/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Power",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Power/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Product",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Product/debug_1",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/debug_2",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/debug_2/debug_1",
+    "Name": "debug_1"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/From",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/From/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Rate Transition",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Rate Transition/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Output2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Output2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Product",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Product/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Rate Transition",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Rate Transition/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Pos1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Pos1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Speed",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Speed/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Duty Cycle",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Duty Cycle/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Ia",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Ia/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Multiport\nSwitch/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Product",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Product/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/TorqueDemand",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/TorqueDemand/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion2",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/datacpu2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/datacpu2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion5",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion5/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion5",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion5/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion4",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion4/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion4",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion4/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/datacpu1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/datacpu1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion3",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion3/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion3",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion3/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/SpeedCommand",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/SpeedCommand/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Data_Type_Fixed_Point/Data Type Conversion/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/Data",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/Data/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/Host Serial Transmit",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/Host Serial Transmit/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Scope (Per-Unit)",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Scope (Per-Unit)/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Host Serial Receive",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Host Serial Receive/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/Data_Type_Fixed_Point/Data Type Conversion1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Enable_PWM",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Enable_PWM/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/FWC Enable",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/FWC Enable/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator2",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Data",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Data/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Debug_signals",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Debug_signals/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Debug_signals",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Debug_signals/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Goto",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Goto/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Debug_signals",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Debug_signals/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Goto",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic1"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Goto/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Shift\nArithmetic1/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Bitwise\nOperator/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/Sum/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/signal_1",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Debug1 (SI units)",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Debug1 (SI units)/signal_1",
+    "Name": "signal_1"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Scope (Per-Unit)",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Scope (Per-Unit)/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Host Serial Receive/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Scope (Per-Unit)"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Scope (Per-Unit)/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/signal_2",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Debug2 (SI units)",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Debug2 (SI units)/signal_2",
+    "Name": "signal_2"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/Signal1",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units/Signal1",
+    "Name": "Signal1"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Display_Value/Signal2",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Convert_to_SI_Units1/Signal2",
+    "Name": "Signal2"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain1/Speed (PU)",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition/Speed (PU)",
+    "Name": "Speed (PU)"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/IQ_ref",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/IQ_ref/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Motor Enable",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Motor Enable/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition1",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition1/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Goto",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Goto/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Signal Select2/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Goto",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Goto/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Enabled\nSubsystem/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Parse/",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Change_detect/",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2/Iq_ref(PU)",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition1/Iq_ref(PU)",
+    "Name": "Iq_ref(PU)"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2/Iq_ref(PU)",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Iq_ref(PU)",
+    "Name": "Iq_ref(PU)"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain2/Iq_ref(PU)",
+    "DstBlock": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition1"
+    ],
+    "DstPort": [
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Data_Conditioning_Tx/Iq_ref(PU)",
+      "mcb_pmsm_foc_dual_host_model/Serial Communication/Rate Transition1/Iq_ref(PU)"
+    ],
+    "Name": "Iq_ref(PU)"
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Reference Speed (RPM)",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Reference Speed (RPM)/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/Gain1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Scope",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Scope/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Display1",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Display1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "mcb_pmsm_foc_dual_host_model/Serial Communication",
+    "SrcPort": "mcb_pmsm_foc_dual_host_model/Serial Communication/",
+    "DstBlock": "mcb_pmsm_foc_dual_host_model/Display",
+    "DstPort": "mcb_pmsm_foc_dual_host_model/Display/",
+    "Name": ""
+  }
+]

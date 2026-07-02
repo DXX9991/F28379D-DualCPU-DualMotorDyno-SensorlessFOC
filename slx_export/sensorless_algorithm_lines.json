@@ -1,0 +1,433 @@
+[
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Q17 per unit conversion",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Q17 per unit conversion/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion1",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion1",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Data Type Conversion1/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Iab_meas_PU",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Iab_meas_PU/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/In1",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/In1/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Q17 per unit conversion",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/Data_Type_Fixed_Point/Q17 per unit conversion/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data Type Conversion",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data Type Conversion/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Add",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Add/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Add",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Add/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Iab_ADC",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Iab_ADC/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Data Type Conversion",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Data Type Conversion/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data_Type",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data_Type/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Inverting // Non-inverting \nCurrent measurement \namplifier",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Inverting // Non-inverting \nCurrent measurement \namplifier/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Inverting // Non-inverting \nCurrent measurement \namplifier",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Inverting // Non-inverting \nCurrent measurement \namplifier/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Iab_meas_PU",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Iab_meas_PU/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data Store\nRead1",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data Store\nRead1/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Mux",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Data Store\nRead",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Data Store\nRead/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Mux",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents/Mux",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Mux/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents/Add",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/Add/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/IIR Filter",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/IIR Filter/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigIN",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigIN/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/IIR Filter",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/IIR Filter/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigIN",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigIN/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigIN",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigIN/",
+    "DstBlock": [
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6",
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/IIR Filter"
+    ],
+    "DstPort": [
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6/",
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/IIR Filter/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/Sum6/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigOUT",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/SigOUT/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/InputSignals",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/InputSignals/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/DC component removal/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Position//Speed",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Position//Speed/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Speed Measurement",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Speed Measurement/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/IIR Filter",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/IIR Filter/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/elect2mech",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/elect2mech/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2/Ialpha",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/Ialpha",
+    "Name": "Ialpha"
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Demux2/Ibeta",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/Ibeta",
+    "Name": "Ibeta"
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/IIR Filter",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/IIR Filter/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/elect2mech",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/elect2mech/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Speed Measurement",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Speed Measurement/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/",
+    "DstBlock": [
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/Speed Measurement",
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2"
+    ],
+    "DstPort": [
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/Speed Measurement/",
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/Mux2/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Logical\nOperator",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Logical\nOperator/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Flux Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Data Store Read1",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Data Store Read1/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer/Logical\nOperator",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Mux",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Mux/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Position//Speed",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Position//Speed/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1/Ibeta",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer/Ibeta",
+    "Name": "Ibeta"
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1/Ialpha",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer/Ialpha",
+    "Name": "Ialpha"
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Mux",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Mux",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Mux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/InputSignals",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/InputSignals/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Demux1/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Data Store Read1",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Data Store Read1/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Logical\nOperator",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Logical\nOperator/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Logical\nOperator",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Logical\nOperator/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/Sliding Mode Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/VI_fb",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/VI_fb/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/VI_fb",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/VI_fb/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/VI_fb",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/VI_fb/",
+    "DstBlock": [
+      "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer",
+      "sensorless_algorithm/Calculate position and speed/Flux Observer"
+    ],
+    "DstPort": [
+      "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/",
+      "sensorless_algorithm/Calculate position and speed/Flux Observer/"
+    ],
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Demux",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Demux/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Pos_PU",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Pos_PU/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Demux",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Demux/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/speed_PU",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/speed_PU/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Merge",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Merge/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Merge",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Merge/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Merge",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Merge/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Demux",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Demux/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Switch Case",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Switch Case/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Flux Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Flux Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Switch Case",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Switch Case/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Sliding Mode Observer/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed/Estimator Select",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/Estimator Select/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed/Switch Case",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/Switch Case/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Estimator Select",
+    "SrcPort": "sensorless_algorithm/Estimator Select/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/VI_fb",
+    "SrcPort": "sensorless_algorithm/VI_fb/",
+    "DstBlock": "sensorless_algorithm/Calculate position and speed",
+    "DstPort": "sensorless_algorithm/Calculate position and speed/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/",
+    "DstBlock": "sensorless_algorithm/Pos_PU",
+    "DstPort": "sensorless_algorithm/Pos_PU/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate position and speed",
+    "SrcPort": "sensorless_algorithm/Calculate position and speed/",
+    "DstBlock": "sensorless_algorithm/speed_PU",
+    "DstPort": "sensorless_algorithm/speed_PU/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Iab_ADC",
+    "SrcPort": "sensorless_algorithm/Iab_ADC/",
+    "DstBlock": "sensorless_algorithm/Calculate Phase Currents",
+    "DstPort": "sensorless_algorithm/Calculate Phase Currents/",
+    "Name": ""
+  },
+  {
+    "SrcBlock": "sensorless_algorithm/Calculate Phase Currents",
+    "SrcPort": "sensorless_algorithm/Calculate Phase Currents/Iab_fb_PU",
+    "DstBlock": "sensorless_algorithm/Iab_meas_PU",
+    "DstPort": "sensorless_algorithm/Iab_meas_PU/Iab_fb_PU",
+    "Name": "Iab_fb_PU"
+  }
+]
